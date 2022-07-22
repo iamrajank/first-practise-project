@@ -1,0 +1,147 @@
+body {
+    background-image: url('pexels-buro-millennial-1438081.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.left {
+
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.left img {
+    width: 90px;
+}
+
+.left div {
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 11px auto;
+    /* border: 3px solid green; */
+    padding: 2px;
+    /* background-color: rgb(155, 241, 212); */
+    border-radius: 15px;
+
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 8px;
+    font-style: bold;
+
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: brown;
+
+}
+
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(156, 128, 243);
+    color: red;
+}
+
+.container {
+    /* text-align: bottom; */
+    width: 380px;
+    margin: 40px 8px;
+    /* border: 1px solid; */
+    padding: 5px 10px;
+
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(154, 246, 246);
+
+}
+
+#para1 {
+    font-size: x-large;
+    width: 300px;
+    margin: -57px 10px;
+    padding: px;
+}
+
+.container1 {
+    border: 2px solid white;
+    margin: -10px 73px;
+    padding: 10px 55px;
+    width: 25%;
+    border-radius: 28px;
+    position: relative;
+    float: right;
+    font-size: small;
+    color: azure;
+
+
+}
+
+.formgroup {
+    color: rgb(34, 251, 251);
+
+}
+
+.formgroup input {
+    text-align: center;
+    display: block;
+    width: 230px;
+    padding: 3px;
+    border: 2px solid red;
+
+}
+
+.container1 button {
+    display: block;
+    width: 220px;
+    margin: 3px 10px;
+
+}
